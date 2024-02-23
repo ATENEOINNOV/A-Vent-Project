@@ -39,13 +39,13 @@
 #define Sensitivity          4.413F
 #define mmH2O_cmH2O          10.00F
 
-// Wi-Fi credentials 
-const char* SSID = "Mipau";       // "REPLACE_WITH_WIFI_SSID" PLDTHOMEFIBRTjp7K Mipau AteneoInnovation
-const char* PASSWORD = "phoneWifi777";  // "REPLACE_WITH_WIFI_PASSWORD" prSantiago57! phoneWifi777 admuinnov
+// Wi-Fi credentials
+const char* SSID = "AIC Starlink";  // "REPLACE_WITH_WIFI_SSID"
+const char* PASSWORD = "admuinnov";  // "REPLACE_WITH_WIFI_PASSWORD"
 
 // Mosquito MQTT Broker Credentials (ThingClient, IP, Port, Topic)
 #define THINGNAME "ESP32 NODE"
-#define mqtt_server "192.168.43.241"  // 192.168.1.8 192.168.43.241 192.168.100.179
+#define mqtt_server "192.168.1.27"
 #define mqtt_port 1883
 #define MQTT_TOPIC_1 "AVENT/ESPNODE/WAVEFORM"
 #define MQTT_TOPIC_2 "AVENT/ESPNODE/THRESHOLD"
